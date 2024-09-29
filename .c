@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 double f(int x, double b) {
-    
-    
+        
 double a0 = 186.752;
-    
+
     doubl
 double a1 = -148.235;
     
@@ -23,11 +22,7 @@ double a5 = -0.00513554;
 double a6 = 0.0000735464;
     double a7 = -4.22038e-7;
 
-    
-
     ret
-
-
  
 return a0 + (a1 + b) * x + a2 * x * x + a3 * x * x * x + a4 * x * x * x * x +
            a5 * x * x * x * x * x + a6 * x * x * x * x * x * x + a7 * x * x * x * x * x * x * x;
@@ -60,16 +55,11 @@ return a0 + (a1 + b) * x + a2 * x * x + a3 * x * x * x + a4 * x * x * x * x +
            a5 *
 
            
-
-      
-
- 
+       
 void decode_message(const char *hex_string) {
     char message[51] = {0}; // Para armazenar a mensagem decodificada (até 50 caracteres + nulo)
     int i = 0, j = 0;
-
-    
-
+   
 while (hex_string[i] != '\0' && hex_string[i + 1] != '\0') {
         
   
@@ -78,7 +68,6 @@ if (hex_string[i] == '0' && hex_string[i + 1] == '0') {
       
 break; // Encerra a leitura ao encontrar "00"
         }
-
         
    
 // Converte os dois caracteres hexadecimais em um valor decimal
